@@ -23,25 +23,7 @@ void loop() {
 
   delay(1000);
 
-  // Uncomment the block below to test fixed colors without potentiometers
-  /*
-  RGB_color(0, 255, 255); // Red
-  delay(1000);
-  RGB_color(255, 0, 255); // Green
-  delay(1000);
-  RGB_color(255, 255, 0); // Blue
-  delay(1000);
-  RGB_color(0, 0, 125);   // Raspberry
-  delay(1000);
-  RGB_color(255, 0, 0);   // Cyan
-  delay(1000);
-  RGB_color(0, 255, 0);   // Magenta
-  delay(1000);
-  RGB_color(0, 0, 255);   // Yellow
-  delay(1000);
-  RGB_color(0, 0, 0);     // White
-  delay(1000);
-  */
+
 }
 
 void RGB_color(int red_light_value, int green_light_value, int blue_light_value) {
